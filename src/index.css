@@ -29,6 +29,37 @@ a:hover {
 }
 
 @media (max-width: 760px) {
+    body {
+        font-size: 20px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar input {
+        margin-top: .5rem;
+        margin-left: 1.3rem;
+    }
+    .movies-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie-card {
+        width: auto;
+        box-sizing: content-box;
+        
+    }
+    .footer {
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 460px) {
+    body {
+        font-size: 20px;
+    }
     #navbar {
         display: flex;
         flex-direction: column;
