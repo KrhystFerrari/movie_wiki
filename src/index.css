@@ -20,3 +20,37 @@ a:hover {
     color: #b8930c;
 }
 
+.footer {
+    font-size: 18px;
+    color: #f7d354;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 760px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar input {
+        margin-top: .5rem;
+        margin-left: 1.3rem;
+    }
+    .movies-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie-card {
+        width: auto;
+        box-sizing: content-box;
+        
+    }
+    .footer {
+        text-align: center;
+    }
+    
+}
+
+
